@@ -12,6 +12,16 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+## Database server
+
+Todos are stored in `db.json` and served by [json-server](https://github.com/typicode/json-server). In a second terminal (alongside `ng serve`), run:
+
+```bash
+npm run api
+```
+
+The API is then available at `http://localhost:3000/todos`.
+
 ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:

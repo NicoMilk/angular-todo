@@ -1,0 +1,8 @@
+{
+  "todos": [
+    { "id": "1", "title": "Réserver resto", "done": false },
+    { "id": "2", "title": "Acheter du pain", "done": true },
+    { "id": "3", "title": "Faire la lessive", "done": false },
+    { "id": "4", "title": "Sortir la poubelle jaune", "done": false }
+  ]
+}
